@@ -9,11 +9,11 @@ public class Metodos{
             ObjBiblioteca l = new ObjBiblioteca();
             System.out.println("\nTitulo: ");
             l.setTitulo(sc.nextLine());
-            System.out.println("Autor: ");
+            System.out.println("\nAutor: ");
             l.setAutor(sc.nextLine());
-            System.out.println("Año de publicacion: ");
+            System.out.println("\nAño de publicacion: ");
             l.setAnioPublicacion(sc.nextInt());
-            System.out.println("Precio: ");
+            System.out.println("\nPrecio: ");
             l.setPrecio(sc.nextDouble());
             sc.nextLine(); // limpiar buffer antes del siguiente nextLine()
             libros[i] = l;
